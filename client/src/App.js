@@ -1,13 +1,16 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
-import MapboxGLMap from "./components/MapboxGLMap/MapboxGLMap";
+import { BrowserRouter } from "react-router-dom";
+// import MapboxGLMap from "./components/MapboxGLMap/MapboxGLMap";
+import Main from './components/main';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 
 function App() {
   return (
     <BrowserRouter>
       {/* <Switch> */}
-      <MapboxGLMap />
+      <Main/>
+      {/* <MapboxGLMap /> */}
       {/* </Switch> */}
     </BrowserRouter>
   );
